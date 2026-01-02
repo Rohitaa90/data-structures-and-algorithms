@@ -36,3 +36,13 @@ console.log(isClicked);
 let price = -1;
 let pricebollean = Boolean(price);
 console.log(pricebollean);
+
+//  When we convert  string  to number
+//
+//  "3" => 3 and Number
+// "3abc" => Nan
+
+// in case of the boolean
+// let str = "";
+// let strboolean = Boolean(str);
+//
