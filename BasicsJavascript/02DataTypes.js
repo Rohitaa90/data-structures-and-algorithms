@@ -15,7 +15,7 @@ Null : ek aisa value jiska matlab hai ( Variable ki Value Undefined nhi hai , mt
 
 */
 // User ne server ko request bheji: "mujhe temperature chahiye"
-
+console.log(typeof null);
 // Agar server sahi kaam kare
 let temperature = 32;
 // 32 ka matlab actual temperature available hai
@@ -33,3 +33,27 @@ if (temperatureFromServer === null) {
 } else {
   console.log(`Temperature is ${temperatureFromServer}°C`);
 }
+
+
+/*
+Null k case me, 
+if let name = null;
+
+to ye btata hai ki name variable exist karta hai,
+but developer ne usme abhi koi value initialize nahi ki hai.
+
+Undefined k case me,
+if let name;
+
+to ye btata hai ki name variable exist karta hai,
+but usme abhi koi value assigned hi nahi hui hai.
+
+
+
+
+*/
+
+console.log(typeof null);
+console.log(typeof undefined);
+
+
